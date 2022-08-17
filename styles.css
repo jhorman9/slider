@@ -1,0 +1,74 @@
+body {
+  background: #c7c7c7;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.align-vertical {
+  align-items: center;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.previous {
+  visibility: hidden;
+}
+
+.img-container {
+  border-radius: 17px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: purple;
+  color: white;
+  
+}
+
+
+
+.select-image {
+  width: 25px;
+  height: 35px;
+  background: purple;
+  color: white;
+  border-radius: 7px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.scale {
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.current {
+  color: purple;
+  background: #DACFF0;
+  border: solid 1px purple;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
